@@ -14,6 +14,8 @@
 		457400E32181A359002C8E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457400E12181A359002C8E65 /* LaunchScreen.storyboard */; };
 		457400EE2181A359002C8E65 /* MvpTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457400ED2181A359002C8E65 /* MvpTestTests.swift */; };
 		457400F92181A359002C8E65 /* MvpTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457400F82181A359002C8E65 /* MvpTestUITests.swift */; };
+		457401072181A69E002C8E65 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457401062181A69E002C8E65 /* User.swift */; };
+		457401092181A6F9002C8E65 /* VCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457401082181A6F9002C8E65 /* VCPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		457400F42181A359002C8E65 /* MvpTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MvpTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		457400F82181A359002C8E65 /* MvpTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvpTestUITests.swift; sourceTree = "<group>"; };
 		457400FA2181A359002C8E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457401062181A69E002C8E65 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		457401082181A6F9002C8E65 /* VCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				457400D82181A357002C8E65 /* AppDelegate.swift */,
 				457400DA2181A357002C8E65 /* ViewController.swift */,
+				457401062181A69E002C8E65 /* User.swift */,
+				457401082181A6F9002C8E65 /* VCPresenter.swift */,
 				457400DC2181A357002C8E65 /* Main.storyboard */,
 				457400DF2181A359002C8E65 /* Assets.xcassets */,
 				457400E12181A359002C8E65 /* LaunchScreen.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				457400DB2181A357002C8E65 /* ViewController.swift in Sources */,
+				457401092181A6F9002C8E65 /* VCPresenter.swift in Sources */,
 				457400D92181A357002C8E65 /* AppDelegate.swift in Sources */,
+				457401072181A69E002C8E65 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
